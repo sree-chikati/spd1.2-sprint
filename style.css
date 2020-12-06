@@ -1,3 +1,10 @@
+/* ---- IMPORTS ---- */ 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap');
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
 /*-- Body Reset --*/
 body {
     overflow-x: hidden;
@@ -46,13 +53,69 @@ body {
 
   /*===== FIXED BACKGROUND IMG =====*/
   .fixed {
-    background-image: url('./images/bg.png');
+    background-image: url(./images/main/bg2.png);
     position: fixed;
   }
   
   .fixed-background {
     padding: 10rem 0;
+    height: 90vh!important;
   }
+
+  .fixed-background h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: rgb(34, 27, 19);
+  }
+  
+  /*===== ABOUT =====*/
+  .about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*============= FOOTER =============*/
+  footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  footer h3{
+      color: white;
+      font-size: 15px;
+      text-transform: uppercase;
+  }
+
+  footer p{
+      padding: 1rem;
+      text-transform: uppercase;
+  }
+
+  footer span{
+      color:#918151;
+  }
+
+  .github, .instagram{
+      color: white;
+      text-decoration: none;
+      padding: 1rem 1rem 0 1rem;
+  }
+
+
+  .github:hover, .instagram:hover{
+      color: #918151;
+  }
+
+
 
 
 
