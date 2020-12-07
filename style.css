@@ -16,6 +16,19 @@ body {
     text-transform: uppercase;
     color: rgb(34, 27, 19);
   }
+
+  .btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background: #7B593F!important;
+    color: white!important;
+    border: none;
+  }
+  
   
   /*============= TOP BAR HEADER =============*/
   .top-bar {
@@ -50,7 +63,7 @@ body {
   }
   
   .nav-link.active, .nav-link:hover{
-    color: #918151!important;
+    color: #7B593F!important;
   }
   
   .navbar-toggler {
@@ -72,7 +85,7 @@ body {
   }
   /*===== ABOUT =====*/
   .about{ 
-    margin: 7rem!important;
+    margin: 0 7rem 7rem 7rem!important;
   }
   .about .story{
     color:#343a40;
@@ -84,11 +97,14 @@ body {
     font-weight: bold;
   }
 
-  /*===== INFO =====*/
-  .info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /*===== GUIDE =====*/
+  .guide p{
+    padding: 1rem;
+  }
+
+  /*===== DRINKS =====*/
+  .drinks .coffee7{
+    height: 40%!important;
   }
 
   /*============= FOOTER =============*/
@@ -116,7 +132,7 @@ body {
   }
 
   footer span{
-      color:#918151;
+      color:#7B593F;
   }
 
   .github, .instagram{
@@ -127,7 +143,7 @@ body {
 
 
   .github:hover, .instagram:hover{
-      color: #918151;
+      color: #7B593F;
   }
 
 
