@@ -10,6 +10,12 @@ body {
     overflow-x: hidden;
     color: #616971;
   }
+
+  h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: rgb(34, 27, 19);
+  }
   
   /*============= TOP BAR HEADER =============*/
   .top-bar {
@@ -51,7 +57,7 @@ body {
     color: red!important;
   }
 
-  /*===== FIXED BACKGROUND IMG =====*/
+  /*===== MAIN IMG =====*/
   .fixed {
     background-image: url(./images/main/bg2.png);
     position: fixed;
@@ -59,18 +65,27 @@ body {
   
   .fixed-background {
     padding: 10rem 0;
-    height: 90vh!important;
   }
 
   .fixed-background h1{
-    font-family: 'Playfair Display', serif;
     font-size: 3rem;
-    color: rgb(34, 27, 19);
   }
-  
   /*===== ABOUT =====*/
-  .about{
-    height: 100vh;
+  .about{ 
+    margin: 7rem!important;
+  }
+  .about .story{
+    color:#343a40;
+    font-size: 1rem ;
+  }
+
+  .about b{
+    font-size: 1.5rem ;
+    font-weight: bold;
+  }
+
+  /*===== INFO =====*/
+  .info{
     display: flex;
     justify-content: center;
     align-items: center;
