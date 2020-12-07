@@ -97,14 +97,15 @@ body {
     font-weight: bold;
   }
 
-  /*===== GUIDE =====*/
-  .guide p{
-    padding: 1rem;
-  }
 
   /*===== DRINKS =====*/
   .drinks .coffee7{
     height: 40%!important;
+  }
+
+  /*===== ENJOY =====*/
+  .enjoy{
+    padding: 0 0 2rem 0!important;
   }
 
   /*============= FOOTER =============*/
