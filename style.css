@@ -108,6 +108,17 @@ body {
     padding: 0 0 2rem 0!important;
   }
 
+
+  /*===== ADIVCE =====*/
+  .advice{
+    padding: 4rem;
+  }
+
+  .advice .coffee2{
+    margin-top: 3.7rem!important;
+  }
+
+
   /*============= FOOTER =============*/
   footer{
     background-color: black;
